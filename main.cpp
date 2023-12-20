@@ -47,7 +47,7 @@ int main()
             {
                 std::cout << "Ingrese un numero: ";
                 std::cin >> num;
-                std::cout << "Representacion binaria de " << num << ": " << ANSI_COLOR_YELLOW << /*Llamada a funci�n*/ << ANSI_COLOR_RESET << std::endl;
+                std::cout << "Representacion binaria de " << num << ": " << ANSI_COLOR_YELLOW << decimalToBinario(num) << ANSI_COLOR_RESET << std::endl;
                 break;
             }
             // Trabajador2:
