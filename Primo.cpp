@@ -13,5 +13,5 @@ bool esPrimo(int numero) {
             return false;
         }
     }
-    return
+    return;
 }
