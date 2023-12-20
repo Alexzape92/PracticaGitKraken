@@ -55,7 +55,7 @@ int main()
             {
                 std::cout << "Ingrese un numero: ";
                 std::cin >> num;
-                std::cout << "Factorial de " << num << ": " << ANSI_COLOR_YELLOW << factorial(num) << ANSI_COLOR_RESET << std::endl;
+                std::cout << "Factorial de " << num << ": " << ANSI_COLOR_YELLOW << Factorial(num) << ANSI_COLOR_RESET << std::endl;
                 break;
             }
             // Trabajador3:

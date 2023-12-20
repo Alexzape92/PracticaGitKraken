@@ -4,7 +4,7 @@
 bool esPrimo(int numero) {
     if (numero <= 1)
     {
-        return false;
+        return true;
     }
     for (int i = 2; i * i <= numero; ++i)
     {
@@ -13,5 +13,5 @@ bool esPrimo(int numero) {
             return false;
         }
     }
-    return;
+    return true;
 }
