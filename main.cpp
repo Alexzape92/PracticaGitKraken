@@ -63,7 +63,7 @@ int main()
             {
                 std::cout << "Ingrese un numero: ";
                 std::cin >> num;
-                if (/*Llamada a funci�n*/)
+                if (esPar(num))
                 {
                     std::cout << ANSI_COLOR_GREEN << num << " es par." << ANSI_COLOR_RESET << std::endl;
                 } else
@@ -77,7 +77,7 @@ int main()
             {
                 std::cout << "Ingrese un numero: ";
                 std::cin >> num;
-                if (/*Llamada a funci�n*/)
+                if (esPrimo(num))
                 {
                     std::cout << ANSI_COLOR_GREEN << num << " es primo." << ANSI_COLOR_RESET << std::endl;
                 } else
