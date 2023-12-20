@@ -1,8 +1,7 @@
 // Trabajador4
 #include "Primo.h"
 
-bool esPrimo(int numero)
-{
+bool esPrimo(int numero) {
     if (numero <= 1)
     {
         return false;
@@ -15,4 +14,4 @@ bool esPrimo(int numero)
         }
     }
     return
-
+}
