@@ -4,7 +4,7 @@
 #include "ParImpar.h"
 #include "Binario.h"
 
-// Definiciones de códigos de color ANSI
+// Definiciones de cï¿½digos de color ANSI
 #define ANSI_COLOR_RESET   "\x1b[0m"
 #define ANSI_COLOR_RED     "\x1b[31m"
 #define ANSI_COLOR_GREEN   "\x1b[32m"
@@ -47,7 +47,7 @@ int main()
             {
                 std::cout << "Ingrese un numero: ";
                 std::cin >> num;
-                std::cout << "Representacion binaria de " << num << ": " << ANSI_COLOR_YELLOW << /*Llamada a función*/ << ANSI_COLOR_RESET << std::endl;
+                std::cout << "Representacion binaria de " << num << ": " << ANSI_COLOR_YELLOW << /*Llamada a funciï¿½n*/ << ANSI_COLOR_RESET << std::endl;
                 break;
             }
             // Trabajador2:
@@ -55,7 +55,7 @@ int main()
             {
                 std::cout << "Ingrese un numero: ";
                 std::cin >> num;
-                std::cout << "Factorial de " << num << ": " << ANSI_COLOR_YELLOW << /*Llamada a función*/ << ANSI_COLOR_RESET << std::endl;
+                std::cout << "Factorial de " << num << ": " << ANSI_COLOR_YELLOW << /*Llamada a funciï¿½n*/ << ANSI_COLOR_RESET << std::endl;
                 break;
             }
             // Trabajador3:
@@ -63,7 +63,7 @@ int main()
             {
                 std::cout << "Ingrese un numero: ";
                 std::cin >> num;
-                if (/*Llamada a función*/)
+                if (esPar(num))
                 {
                     std::cout << ANSI_COLOR_GREEN << num << " es par." << ANSI_COLOR_RESET << std::endl;
                 } else
@@ -77,7 +77,7 @@ int main()
             {
                 std::cout << "Ingrese un numero: ";
                 std::cin >> num;
-                if (/*Llamada a función*/)
+                if (/*Llamada a funciï¿½n*/)
                 {
                     std::cout << ANSI_COLOR_GREEN << num << " es primo." << ANSI_COLOR_RESET << std::endl;
                 } else
@@ -88,14 +88,14 @@ int main()
 
             }
             case 0:
-                std::cout << ANSI_COLOR_RED << "Saliendo de la calculadora. ¡Hasta luego!" << ANSI_COLOR_RESET << std::endl;
+                std::cout << ANSI_COLOR_RED << "Saliendo de la calculadora. ï¿½Hasta luego!" << ANSI_COLOR_RESET << std::endl;
                 break;
             default:
                 std::cout << ANSI_COLOR_RED << "Opcion no valida. Intente de nuevo." << ANSI_COLOR_RESET << std::endl;
                 break;
         }
 
-        // Espera antes de volver al menú
+        // Espera antes de volver al menï¿½
         std::cout << "Presione Enter para continuar...";
         std::cin.ignore();
         std::cin.get();
