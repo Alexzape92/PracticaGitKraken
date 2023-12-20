@@ -12,7 +12,7 @@ int decimalToBinario(int numero)
 
     while (numero > 0)
     {
-        binario += (numero % 2);
+        binario += multiplicador * (numero % 2);
         numero /= 2;
         multiplicador *= 10;
     }
